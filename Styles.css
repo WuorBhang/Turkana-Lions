@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #ce8f42;
+    color: #fff;
+    padding: 15px 0;
+}
+.nav-menu {
+    list-style: none;
+    text-align: center;
+}
+.nav-menu .logo {
+    margin: 0;
+    text-align: left;
+    margin: 0 30px;
+}
+.nav-menu li {
+    display: inline-block;
+    margin: 0 30px;
+}
+.nav-menu a {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Home styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+#Home {
+    background-image: url(./images/home.jpg);
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 100vh;
+}
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+    margin-top: 30px;
+    align-items: center;
+}
+.home-text {
+    margin-top: 30px;
+    width: 90%;
+    color: #ffffff;
+}
+#Home .button {
+    margin-top: 100px;
+    padding: 5px;
+    background-color: #7e6f5c;
+    color: #ececec;
+}
+#Home .button:hover {
+    color: #ce8f42;
+    background-color: black;
+}
+#About {
+    background-color: #f9ebb2;
+}
+#Services, #Department, #Contact {
+    background-color: #f9ebb2;
+    margin: 20px 0;
+}
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 30px;
+}
+.about-text, .about-image {
+    width: 45%;
+}
+.about-image img {
+    border-radius: 15%;
+    width: 350px;
+    height: 350px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.services-item {
+    background-color: #ffd683;
+    padding: 40px;
+    width: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.21);
+}
+.services-item:hover {
+    background-color: #735005c4;
+}
+
+.departments {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.departments img {
+    width: 22%;
+    margin-bottom: 20px;
+}
+#contact {
+    padding-top: 150px;
+}
+.contact-form {
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+    background-color: #7e6f5c;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #f5a802;
+}
+
+footer {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    background-color: #ce8f42;
+    margin-top: 1px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+    align-items: center;
+}
+
+.footer-socials img {
+    display: inline-block;
+    margin: 0 10px;
+}
+footer .footer-text {
+    padding-top: -5px;
+    margin: auto;
+}
